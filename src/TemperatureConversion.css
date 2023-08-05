@@ -1,0 +1,23 @@
+
+.degree a{
+    text-decoration: none;
+    font-size: 13px;
+    vertical-align: +20px;
+    color: black;
+}
+
+.degree .active{
+    text-decoration: underline;
+    font-size: 15px;
+    color: blue;
+    font-size: 13px;
+    vertical-align: +20px;
+}
+
+.degree .sactive{
+    text-decoration: underline;
+    font-size: 15px;
+    color: blue;
+    font-size: 13px;
+    vertical-align: +20px;
+}
