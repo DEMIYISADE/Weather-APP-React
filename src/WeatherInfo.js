@@ -7,7 +7,7 @@ export default function WeatherInfo(props){
     return ( 
 <div>
 <br/>
-<div className="row">
+<div className="row md-4">
     <div className="col-3 second-Layer">
         <div className="currentTime">
             <span>{props.Datefull}</span>
