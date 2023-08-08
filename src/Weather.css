@@ -99,10 +99,8 @@ img{
     }
 
     .second-Layer{
-        font-size: 10px;
-    }
-
-    .detailsRight{
-        margin-right: -10px;
+        font-size: 14px;
+        margin-right: -90px;
+        margin-left: 30px;
     }
 }
