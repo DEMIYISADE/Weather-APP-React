@@ -1,3 +1,6 @@
+body{
+    background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
 
 .border{
     color: navy;
@@ -7,7 +10,7 @@
     border-style: solid;
     border-radius: 20px;
     border-width: 10px;
-    background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    background: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 }
 
 li{
@@ -79,4 +82,27 @@ img{
     position: absolute;
     right: 770px;
     top: 670px;
+}
+
+@media(max-width: 600px){
+    
+    .border{
+        color: navy;
+        margin: 10px 10px;
+        padding: 35px 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .top-country{
+        font-size: 15px;
+    }
+
+    .second-Layer{
+        font-size: 10px;
+    }
+
+    .detailsRight{
+        margin-right: -10px;
+    }
 }
